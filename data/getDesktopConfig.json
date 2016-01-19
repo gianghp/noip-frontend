@@ -1,0 +1,55 @@
+{
+    "success" : true,
+    "user_name" : "admin",
+    "full_name" : "Administrator",
+    "languageConfig" : [],
+    "shortcut" : [
+        {
+            "name": "Tài khoản",
+            "text": "Quản lý tài khoản",
+            "iconCls32": "teachers32",
+            "iconCls16": "notepad",
+            "open_src": "user/manager.js",
+            "open_class": "Ext.User.Manager",
+            "args": {"title" : "Quản lý tài khoản", "name" : "Quản lý người dùng"},
+            "hidden": 0,
+            "autorun": 0
+        },
+        {
+            "name": "Ngôn ngữ",
+            "text": "Quản lý ngôn ngữ",
+            "iconCls32": "teachers32",
+            "iconCls16": "notepad",
+            "open_src": "language/manager.js",
+            "open_class": "Ext.Language.Manager",
+            "args": {"title" : "Quản lý ngôn ngữ", "name" : "Quản lý ngôn ngữ"},
+            "hidden": 0,
+            "autorun": 0
+        }
+    ],
+    "quickstart" : [
+        {
+            "name": "Tài khoản",
+            "text": "Quản lý tài khoản",
+            "iconCls32": "teachers32",
+            "iconCls16": "notepad",
+            "open_src": "user/manager.js",
+            "open_class": "Ext.User.Manager",
+            "args": {"title" : "Quản lý tài khoản", "name" : "Quản lý người dùng"},
+            "hidden": 0,
+            "autorun": 0
+        },
+        {
+            "name": "Ngôn ngữ",
+            "text": "Quản lý ngôn ngữ",
+            "iconCls32": "teachers32",
+            "iconCls16": "notepad",
+            "open_src": "language/manager.js",
+            "open_class": "Ext.Language.Manager",
+            "args": {"title" : "Quản lý ngôn ngữ", "name" : "Quản lý ngôn ngữ"},
+            "hidden": 0,
+            "autorun": 0
+        }
+    ],
+    "autorun" : []
+}

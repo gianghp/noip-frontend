@@ -1,0 +1,36 @@
+/* 
+    Document   : examcss
+    Created on : Feb 16, 2012, 4:22:22 PM
+    Author     : MAI ANH
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.chucnang1{
+    background-image: url(icons/fam/APPLICATIONFOLDER.png) !important;
+    background-size: 20 px;
+}
+.icon_main{
+    background-image: url(icons/exam/icon_main.png) !important;
+    background-size: 20 px;
+
+}
+.icon_quantri{
+    background-image: url(icons/exam/icon_quantri.png) !important;
+    background-size: 20 px;
+}
+.gachchan{
+   border-bottom-style: solid;
+   border-bottom-color: #FFFAF9;
+   border-width: 1px;
+   color: #333333;
+
+}
+.label_HD{
+    
+    color:#3b5a82;
+    margin:20px 3px;
+    
+}
+
+

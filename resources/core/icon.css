@@ -1,0 +1,139 @@
+.table-edit{background-image:url(icons/nam/table-edit.gif) !important;}
+.icon-report{background-image:url(icons/nam/report.gif) !important;}
+.disk{background-image:url(icons/disk.png) !important;}
+.cancel{background-image:url(icons/cancel.png) !important;}
+.icon-book{background-image:url(icons/fam/folder.png) !important;}
+.icon-up{background-image:url(icons/nam/control-090.png) !important;}
+.icon-down{background-image:url(icons/nam/control-270.png) !important;}
+.hand-up{background-image:url(icons/nam/hand-up.png) !important;}
+.hand-down{background-image:url(icons/nam/hand-down.png) !important;}
+.icon-checked{background-image:url(icons/checked.jpg) !important;}
+.icon-unchecked{background-image:url(icons/unchecked.jpg) !important;}
+.icon-search{background-image:url(icons/nam/search.png) !important;}
+.cog{background-image:url(icons/cog.png) !important;}
+.booking{background-image:url(icons/booking.png) !important;}
+.new{background-image:url(icons/new.png) !important;}
+.application_run{background-image:url(icons/application-run.png) !important;}
+.progress{background-image:url(icons/progress.png) !important;}
+.clock{background-image:url(icons/clock.png) !important;}
+.package{background-image:url(icons/package.png) !important;}
+.cog_go{background-image:url(icons/cog_go.png) !important;}
+.accept{background-image:url(icons/fam/accept.png) !important;}
+.word{background-image:url(icons/word.png) !important;}
+.delete{background-image:url(icons/delete.png) !important;}
+.option{background-image:url(icons/cog.png) !important;}
+.attach{background-image:url(icons/attach.png) !important;}
+.save{background-image:url(icons/save.png) !important;}
+.sort_az{background-image:url(icons/sort_az.png) !important;}
+.sort_za{background-image:url(icons/sort_za.png) !important;}
+.number_order{background-image:url(icons/number.png) !important;}
+.upload{background-image:url(icons/upload.png) !important;}
+.download{background-image:url(icons/download.png) !important;}
+.list{background-image:url(icons/list.png) !important;}
+.select{background-image:url(icons/fam/accept.png) !important;}
+.system{background-image:url(icons/system.png) !important;}
+.dictionary{background-image:url(icons/dictionary.png) !important;}
+.office{background-image:url(icons/office.png) !important;}
+.component{background-image:url(icons/component.png) !important;}
+.business{background-image:url(icons/business.png) !important;}
+.money{background-image:url(icons/icon_money.gif) !important;}
+.icon-new{background-image:url(icons/new.png) !important;}
+.icon-clock{background-image:url(icons/clock.png) !important;}
+.icon-accept{background-image:url(icons/nam/accept.png) !important;}
+.icon-cancel{background-image:url(icons/nam/cancel.png) !important;}
+.icon-comment{background-image:url(icons/nam/comment.gif) !important;}
+.icon-info{background-image:url(icons/fam/information.png) !important;}
+.icon-error{background-image:url(icons/fam/error.png) !important;}
+.icon-user{background-image:url(icons/fam/user.png) !important;}
+.printer{background-image:url(icons/printer.png) !important;}
+.admin16{background-image:url(icons/administrator.png) !important;}
+.edu16{background-image:url(icons/edu.png) !important;}
+.edu32{background-image:url(icons/edu32.png) !important; background-position: center;}
+.doc16{background-image:url(icons/doc16.png) !important;}
+.social16{background-image:url(icons/social_flickr16.png) !important;}
+.social161{background-image:url(icons/social161.png) !important;}
+.social32{background-image:url(icons/social_flickr32.png) !important; background-position: center;}
+.game16{background-image:url(icons/game16.png) !important;}
+.game32{background-image:url(icons/game32.png) !important;}
+.mobile16{background-image:url(icons/mobile16.png) !important;}
+.mobile32{background-image:url(icons/mobile32.png) !important; background-position: center;}
+.ask16{background-image:url(icons/ask16.png) !important;}
+.ask32{background-image:url(icons/ask32.png) !important;}
+.avatar16{background-image:url(icons/avatar16.png) !important;}
+.avatar32{background-image:url(icons/avatar32.png) !important;}
+.video32{background-image:url(images/youtube.png) !important; background-position: center;}
+.document32{background-image:url(images/document-open-32.png) !important; background-position: center;}
+.doc32{background-image:url(images/document_copies.png) !important; background-position: center;}
+.picture32{background-image:url(images/Pictures.png) !important; background-position: center;}
+.news32{background-image:url(images/newspaper.png) !important; background-position: center;}
+.contact32{background-image:url(images/kontact-summary.png) !important; background-position: center;}
+.info16{background-image:url(icons/info16.png) !important;}
+.info32{background-image:url(icons/info32.png) !important;}
+.key16{background-image:url(icons/key16.png) !important;}
+.key32{background-image:url(icons/key32.png) !important;}
+.access16{background-image:url(icons/access16.png) !important;}
+.access32{background-image:url(icons/access32.png) !important;}
+.config16{background-image:url(icons/applications-system.png) !important;}
+.logout16{background-image:url(icons/logout16.png) !important;}
+.help{background-image:url(icons/help.png) !important;}
+.reply{background-image:url(icons/reply.png) !important;}
+.applications-system{background-image:url(icons/applications-system1.png) !important;}
+.cog_edit{background-image:url(icons/cog_edit.png) !important;}
+.exam{background-image:url(icons/exam/exam.png) !important;}
+.skype{background-image:url(icons/skype.png) !important;}
+.yahoo{background-image:url(icons/yahoo.png) !important;}
+.skype{background-image:url(icons/skype.png) !important;}
+.year{background-image:url(icons/year.png) !important;}
+.soft{background-image:url(icons/kpackage.png) !important;}
+.sendsms{background-image:url(icons/sendsms.png) !important;}
+.allowedit{background-repeat: no-repeat; background-image:url(icons/allowedit.png) !important;}
+.allowedit1{background-repeat: no-repeat; background-image:url(icons/allowedit1.png) !important;}
+.allowedit2{background-repeat: no-repeat; background-image:url(icons/allowedit2.png) !important;}
+.allowedit3{background-repeat: no-repeat; background-image:url(icons/allowedit3.png) !important;}
+.lock{background-image:url(icons/lock.png) !important;}
+.unlock{background-image:url(icons/unlock.png) !important;}
+.print16{background-image:url(icons/print_16.png) !important;}
+.more16{background-image:url(icons/stock_interaction.png) !important;}
+.page32{background-image:url(images/page_white_stack.png) !important;background-position: center;}
+.report1{background-image:url(icons/report1.png) !important; background-position: center;}
+.report2{background-image:url(icons/list-accept.png) !important;background-position: center;}
+.report3{background-image:url(icons/report16.png) !important;background-position: center;}
+.report4{background-image:url(icons/BarChart.png) !important;background-position: center;}
+.report5{background-image:url(icons/report_user.png) !important;background-position: center;}
+.report6{background-image:url(icons/Statistics.png) !important;background-position: center;}
+.report7{background-image:url(icons/report_magnify.png) !important;background-position: center;}
+.report8{background-image:url(icons/report.png) !important;background-position: center;}
+.report32{background-image:url(images/pie-chart_graph.png) !important;background-position: center;}
+.report321{background-image:url(images/window_app_list_chart.png) !important;background-position: center;}
+.pen32{background-image:url(icons/newmail.png) !important;background-position: center;}
+.pcgd{background-image:url(icons/human-folder-txt.png) !important;background-position: center;}
+.pdf16{background-image:url(icons/pdf.png) !important;}
+.buton-next{background-image:url(icons/navigation-next.png) !important;}
+.button-privious{background-image:url(icons/navigation-privious.png) !important;}
+.process16{background-image:url(icons/process.png) !important;}
+.icon-document{background-image:url(../images/icons/fam/document.png) !important;}
+.web16{background-image:url(icons/web.png) !important;}
+.report_status1{background-image:url(icons/report_icon_1.png) !important;width: 68px; height: 16px;}
+.report_status2{background-image:url(icons/report_icon_2.png) !important;width: 68px;}
+.report_status3{background-image:url(icons/report_icon_3.png) !important;width: 68px;}
+.report_status4{background-image:url(icons/report_icon_4.png) !important;width: 68px;}
+.report_status5{background-image:url(icons/report_icon_5.png) !important;width: 68px;}
+.teachers32{background-image:url(images/32/02/taikhoan.png) !important; background-position: center;}
+.chat-shortcut{background-image:url(images/32/02/chat.png) !important; background-position: center;}
+.permission-icon{background-image:url(images/32/02/permission.png) !important; background-position: center;}
+.teachers16{background-image:url(icons/people16.png) !important; background-position: center;}
+.student32{background-image:url(icons/student_32.png?r=3) !important; background-position: center;}
+.student16{background-image:url(icons/student_16.png?r=3) !important; background-position: center;}
+.lichbaogiang32{background-image:url(icons/lichbaogiang32.png) !important; background-position: center;}
+.lichbaogiang16{background-image:url(icons/lichbaogiang16.png) !important; background-position: center;}
+.so_diem32{background-image:url(icons/so_diem32.png?r=7) !important; background-position: center;}
+.so_diem16{background-image:url(icons/so_diem16.png) !important; background-position: center;}
+.feed16{background-image:url(icons/feed16.png) !important; background-position: center;}
+.feed32{background-image:url(icons/feed32.png) !important; background-position: center;}
+.chart16{background-image:url(icons/chart16.png) !important; background-position: center;}
+.chart32{background-image:url(icons/chart32.png) !important; background-position: center;}
+.nhan_xet16{background-image:url(icons/nhan_xet16.png) !important; background-position: center;}
+.nhan_xet32{background-image:url(icons/nhan_xet32.png) !important; background-position: center;}
+.hanh_kiem32{background-image:url(icons/hanh_kiem32.png) !important; background-position: center;}
+.hanh_kiem16{background-image:url(icons/hanh_kiem16.png) !important; background-position: center;}
+.trash16{background-image:url(icons/trash16.png?r=1) !important; background-position: center;}

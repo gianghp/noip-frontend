@@ -1,0 +1,110 @@
+<div id="dvPreferences" style="padding: 10px;">
+    <table>
+        <tr>
+            <td><img src="resources/images/shortcut-icon.gif"/></td>
+            <td style="padding: 10px; height: 70px;">
+                <p><a class="preferences_item" href="#" open_src="desktop/shortcut.js" open_class="MyExt.Desktop.Shortcut"><b>Biểu tượng</b></a></p>
+                Chọn các chức năng sẽ đặt biểu tượng trên màn hình.
+            </td>
+        </tr>
+
+        <tr>
+            <td><img src="resources/images/autorun-icon.gif"/></td>
+            <td style="padding: 10px; height: 70px;">
+                <p><a class="preferences_item" href="#" open_src="desktop/autorun.js" open_class="MyExt.Desktop.Autorun"><b>Tự động mở</b></a></p>
+                Chọn các chức năng sẽ tự động mở sau khi đăng nhập.
+            </td>
+        </tr>
+
+        <tr>
+            <td><img src="resources/images/quickstart-icon.gif"/></td>
+            <td style="padding: 10px; height: 70px;">
+                <p><a class="preferences_item" href="#" open_src="desktop/quickstart.js" open_class="MyExt.Desktop.QuickStart"><b>Mở nhanh</b></a></p>
+                Chọn các chức năng sẽ đặt trong mục mở nhanh.
+            </td>
+        </tr>
+
+        <tr>
+            <td><img src="resources/images/appearance-icon.gif"/></td>
+            <td style="padding: 10px; height: 70px;">
+                <p><a class="preferences_item" href="#" open_class="extcss"><b>Giao diện</b></a></p>
+                Thay đổi các mẫu giao diện hệ thống.
+            </td>
+        </tr>
+
+        <tr>
+            <td><img src="resources/images/wallpaper-icon.gif"/></td>
+            <td style="padding: 10px; height: 70px;">
+                <p><a class="preferences_item" href="#" open_src="desktop/wallpaper.js" open_class="Ext.Wallpaper"><b>Hình nền</b></a></p>
+                Thay đổi ảnh nền desktop theo ý muốn.
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $('#dvPreferences img').each(function(){
+            var me = $(this);
+            me.attr('src', initData.context_path + "/" + me.attr('src'));
+        });
+        
+        $('.preferences_item').click(function () {
+            var me = $(this);
+            var theme = $('#linkExtCss');
+            if (me.attr("open_class") && me.attr("open_class") === "extcss")
+            {
+                var themeid = '58ca43a9-4853-4093-9625-ea46f4f61af9';
+                if (theme.attr("themeid") === "58ca43a9-4853-4093-9625-ea46f4f61af9")
+                {
+                    $('#linkExtCss').attr("href", "resources/css/green.css");
+                    $('#linkExtCssExt').attr("href", "resources/core/ext-green.css");
+                    themeid = '0018adda-9679-44d0-b329-a8beb93df05e';
+                    theme.attr("themeid", themeid);
+                }
+                else if (theme.attr("themeid") === "0018adda-9679-44d0-b329-a8beb93df05e")
+                {
+                    $('#linkExtCss').attr("href", "resources/css/yellow.css");
+                    $('#linkExtCssExt').attr("href", "resources/core/ext-yellow.css");
+                    themeid = 'c21f3f48-070d-47d3-951d-2330a05ad57d';
+                    theme.attr("themeid", themeid);
+                }
+                else if (theme.attr("themeid") === "c21f3f48-070d-47d3-951d-2330a05ad57d")
+                {
+                    $('#linkExtCss').attr("href", "resources/css/gray.css");
+                    $('#linkExtCssExt').attr("href", "resources/core/ext-gray.css");
+                    themeid = '55254684-759b-440d-8135-0286b194a0e9';
+                    theme.attr("themeid", themeid);
+                }
+                else if (theme.attr("themeid") === "55254684-759b-440d-8135-0286b194a0e9")
+                {
+                    $('#linkExtCss').attr("href", "resources/css/gold.css");
+                    $('#linkExtCssExt').attr("href", "resources/core/ext-gold.css");
+                    themeid = '69f3d3fc-f25f-4edd-a1a8-a4bf603e71d8';
+                    theme.attr("themeid", themeid);
+                }
+                else {
+                    $('#linkExtCss').attr("href", "resources/css/blue.css");
+                    $('#linkExtCssExt').attr("href", "resources/core/ext-blue.css");
+                    themeid = '58ca43a9-4853-4093-9625-ea46f4f61af9';
+                    theme.attr("themeid", themeid);
+                }
+                $.ajax({
+                    url: initData.service_path + "/core/user/changeTheme",
+                    data: {theme_id: themeid}
+                });
+            }
+            else if (me.attr("open_class"))
+            {
+                loadJS(me.attr("open_src"), function(){
+                    var desktop = App.getDesktop();
+                    var dlg = Ext.create(me.attr("open_class"));
+                    dlg.createWindow({
+                        desktop: desktop,
+                        parent: $.qu
+                    });
+                });
+            }
+        });
+    });
+</script>

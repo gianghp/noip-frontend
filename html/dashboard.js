@@ -40,12 +40,12 @@ Dashboard.Main = function () {
         $('.dashboard #btnLanguage').click(function(){
             var me = $(this);
             if (Language.getLanguage() === "vn"){
-                me.find("img").attr('src', 'assets/global/img/flags/vn.png');
+                me.find("img").attr('src', 'resources/core/icons/nam/VI.gif');
                 me.find("span").html('Tiếng việt');
                 Language.setLanguage("en");
             }
             else{
-                me.find("img").attr('src', 'assets/global/img/flags/us.png');
+                me.find("img").attr('src', 'resources/core/icons/nam/EN.gif');
                 me.find("span").html('English');
                 Language.setLanguage("vn");
             }
@@ -53,7 +53,7 @@ Dashboard.Main = function () {
         
         if (Language.getLanguage() === "en"){
             var me = $('.dashboard #btnLanguage');
-            me.find("img").attr('src', 'assets/global/img/flags/vn.png');
+            me.find("img").attr('src', 'resources/core/icons/nam/VI.gif');
             me.find("span").html('Tiếng việt');
         }
 

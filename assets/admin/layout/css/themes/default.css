@@ -793,3 +793,25 @@ td, input {
 .x-btn button span.lbl_language, .x-btn button span.x-btn-inner {
     font-size: 12px !important;
 }
+
+.x-box-inner{
+}
+
+.note1.btn {
+  color: white;
+  background-color: #3C94C7;
+}
+
+.note2.btn {
+  color: white;
+  background-color: #00A6E0;
+}
+
+.note3.btn {
+  color: white;
+  background-color: #1E7EB5;
+}
+
+.note1.btn:hover, .note2.btn:hover, .note3.btn:hover{
+  opacity: 0.7;
+}

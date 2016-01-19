@@ -122,7 +122,6 @@ border-color: #cc3300 !important;
 
 .x-toolbar-default
 {
-    background-image: none !important;
     background-color: #ffffff !important;
 }
 
@@ -151,19 +150,18 @@ border-color: #cc3300 !important;
 }
 
 .ux-taskbar {
-    padding-left: 4px !important;
     z-index: 99999998;
     background-color: #00A6E0  !important;
-    background-image: url(images/taskbar5.jpg);
-    background-repeat: repeat-x;
+    background-image: url(images/taskbar5.png);
+    background-position: right 10% center;
+    background-repeat: no-repeat;
     opacity: 1;
     -moz-opacity: 1;
-    filter:alpha(opacity=100);
 }
 
 .ux-taskbar .x-toolbar-default
 {
-    background-color: #00A6E0  !important;
+    background-color: transparent  !important;
 }
 .ux-taskbar .x-btn-inner, .ux-taskbar .x-toolbar-text{
     color:#ffffff !important;
